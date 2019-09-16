@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ludvig Gawell</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <img id="hamburger" alt="meny" src="IMG/menu.png" onclick="openNav()">
+        
+        <div class="cut-out">
+            <div class="cut-out-text">OM MIG</div>
+        </div>
+        
+        <nav id="myNav" class="overlay">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <div class="overlay-content">
+                <a href="index.html">Hem</a>
+                <a href="about.html" id="active">Om mig</a>
+                <a href="gallery.html">Galleri</a>
+                <a href="contact.html">Kontakt</a>
+            </div>
+            
+        </nav>
+        <article id="about">
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </article>
+        <aside>
+            <p>
+                "Årets basist" -Expressen, 2019
+                <br/>
+                <br/>
+                "En riktig lirare på scenen" -Aftonbladet, 2018
+                <br/>
+                <br/>
+                "Aldrig hört talas om honom..." -HM Konungen Carl den XVI Gustav, 2019
+            </p>
+        </aside>
+        
+        <!--Johans fulhack-->
+        <div style="clear:both"></div>
+        
+        <div class="parallax" style="background-image: url(IMG/bass-guitar-1841186_1920.jpg)" ></div>
+        
+        <!--Spotify inbäddning-->
+        <section>
+            <p id="playlist">Favoritlistan just nu!</p>
+        </section>
+        <div id="spotify">
+            <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" ></iframe>
+        </div>
+        
+        <footer>
+            <p id="footer-text">&#169; Jakob Öhman, 2019</p>
+        </footer>
+        <script src="skript.js" type="text/javascript"></script>
+    </body>
+</html>
